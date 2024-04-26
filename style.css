@@ -1,0 +1,56 @@
+header{
+ position:relative;
+ top: 0;
+ height: auto; 
+ width: 100%;   
+}
+nav{
+ position: fixed;
+ top: 0;
+ height: 100px;
+ width: 100%;
+ z-index: 1;
+ background-color: FFF;
+
+}
+nav{
+    clear:both;
+    content:"";
+    display:block;
+   }
+
+.aw ul{
+ float: right;
+ height: 100px; 
+ line-height: 100px;
+ margin: 0:
+ background-color: FFF;
+}
+.aw li{
+ list-style: none;
+ float: left;
+ margin: 0 15px;
+ background-color: FFF:
+}
+      
+.aw li a{
+ text-decoration: none;
+ color:rgb(0, 0, 0);
+ transition: .5s;
+}
+      
+.aw li a:hover{
+ color:rgba(0, 183, 255, 0.993);
+}
+.estilo1{
+ font-size: medium;
+ font-family: Verdana;
+}
+.lista_2{
+ font-family: Verdana; 
+ line-height: 30px;
+}
+.Barra_Lateral{
+ height: 250px;
+ width:150px;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <html lang="pt-br">
+    <head>
+      <title>Formulários em HTML</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+      <div>
+        <header>
+          <br>
+          <h1>Estudando formulários em HTML</h1>
+          <nav>
+            <div class="aw">
+              <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#serviços">Serviços</a></li>
+                <li><a href="#contato">Contatos</a></li>
+              </ul>
+            </div>                    
+          </nav>
+        </header>
+      </div>
+      <main>
+        <div id="conteudo">
+          <article>
+            <h2 id="sobre"><br>Sobre</h2>
+            <p class="estilo1">Esta é uma página
+              de exemplo, criada para demonstrar o uso
+              da tag form do HTML.</p>
+            <img src="Opera Instantâneo_2024-04-25_211031_www.google.com.png" alt="Simbolo do Html">
+          </article>
+          <section>
+            <h2 id="serviços">Serviços</h2>
+            <ul class="lista_2">
+              <li>Web Design</li>
+              <li>Desenvolvimento</li>
+              <li>Hospedagem de Sites</li>
+            </ul>
+          </section>
+          <section>
+          <h2 id="contato">Contato</h2>
+          <p class="estilo1">Entre em contato
+            conosco</p>
+
+          </section>
+          <form name="formulario" action="/contato" method="post">
+            Nome:            
+            <input type="text" name="nome" required>
+            <br><br>
+            Email:
+            <input type="email" name="Email" required>
+            <br><br>
+            Motivo do contato: 
+            <br><br>
+            <textarea rows="4" cols="50" required></textarea>
+            <br><br>
+            <input type="submit" value="Enviar">           
+          </form>
+        </div>
+      </main>
+        <div>
+        <aside class="Barra_Lateral">
+          <h2>Barra Lateral</h2>
+          <p class="estilo1">Algumas
+            informações adicionais podem ser exibidas
+            aqui.</p>
+        </aside>
+      </div>
+        <div>
+        <footer>
+          <p class="estilo1">&copy;2024 Minha Empresa. Todos os direitos
+          reservados</p>
+          <p>Endereço: Av. Exemplo, 123 - Cidade
+            Exemplo - Brasil<br> Telefone: (XX) XXXX-XXXX<br> Email: exemplo@email.com </p>
+      </footer>
+      </div>
+    </body>
+</html>
